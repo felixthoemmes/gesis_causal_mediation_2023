@@ -5,3 +5,4 @@ This repository contains all datasets for the 2022 Causal Mediation workshop
 | --------------------------- | -------------  | -------------- |
 | 1 - Statistical mediation   | exercise1.R    | exercise1.csv  |
 |                             |                | exercise1b.csv | 
+|-----------------------------|----------------|----------------|
