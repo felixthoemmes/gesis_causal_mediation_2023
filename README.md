@@ -1,7 +1,7 @@
 # GESIS Causal Mediation Workshop 2022
 This repository contains all datasets for the 2022 Causal Mediation workshop
 
-List of exercises
+## List of exercises
 
 | Exercise                    | R code file    | Data file      |
 | --------------------------- | -------------  | -------------- |
@@ -13,7 +13,7 @@ List of exercises
 | 5 - Causal mediation        | exercise5.R    | exercise5.csv  |
 
 
-List of examples
+## List of examples
 
 | Example                     | R code file    | Data file      |
 | --------------------------- | -------------  | -------------- |
@@ -25,7 +25,7 @@ List of examples
 | 5 - Causal mediation        | example5.R     | example5.csv   |
 
 
-Useful references
+## Useful references
 
 Andrea Bellavia, Linda Valeri, Decomposition of the Total Effect in the Presence of Multiple Mediators and Interactions, American Journal of Epidemiology, Volume 187, Issue 6, June 2018, Pages 1311–1318.
 
