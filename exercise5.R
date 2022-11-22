@@ -9,3 +9,5 @@ library(ggdag)
 library(tidyverse)
 library(mediation)
 library(regmedint)
+
+df5 <- read_csv("https://raw.githubusercontent.com/felixthoemmes/gesis_causal_mediation_2022/main/example5.csv")
