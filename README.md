@@ -43,6 +43,8 @@ Pearl, J. (2012). The causal mediation formula—a guide to the assessment of pa
 
 Rijnhart, J.J.M., Valente, M.J., Smyth, H.L. et al. Statistical Mediation Analysis for Models with a Binary Mediator and a Binary Outcome: the Differences Between Causal and Traditional Mediation Analysis. Prev Sci (2021).
 
+Steiner, P. M., Cook, T. D., Shadish, W. R., & Clark, M. H. (2010). The importance of covariate selection in controlling for selection bias in observational studies. Psychological methods, 15(3), 250.
+
 Tingley, D., Yamamoto, T., Hirose, K., Keele, L., and Imai, K. (2014). mediation: R package for causal
 mediation analysis. Journal of Statistical Software, 59(5), 1–38. 
 
