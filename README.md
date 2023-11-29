@@ -1,5 +1,5 @@
-# GESIS Causal Mediation Workshop 2022
-This repository contains all datasets for the 2022 Causal Mediation workshop
+# GESIS Causal Mediation Workshop 2023
+This repository contains all datasets for the 2023 Causal Mediation workshop
 
 ## List of exercises
 
