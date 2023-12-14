@@ -23,6 +23,7 @@ This repository contains all datasets for the 2023 Causal Mediation workshop
 | 3 - DAGs                    | example3.R     |      N/A       |
 | 4 - Assumptions             | example4.R     |      N/A       |
 | 5 - Causal mediation        | example5.R     | example5.csv   |
+| 6 - Design-based mediation  | example6.R     | example6.csv   |
 
 
 ## Useful references
