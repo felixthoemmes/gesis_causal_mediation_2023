@@ -16,7 +16,7 @@ df1 <- read_csv("https://raw.githubusercontent.com/felixthoemmes/gesis_causal_me
 #true individual level causal effect
 df1$Y1 - df1$Y0
 
-#true average causal effect - aggregating invidual causal effects
+#true average causal effect - aggregating individual causal effects
 mean(df1$Y1 - df1$Y0)
 
 #prima facie effect on observed outcome
