@@ -64,7 +64,7 @@ coef(lm(Y ~ M * X, data = df2))[3] -> cprime1 # the c' path when M = 0
 #two b paths when M is at the mean level of X0 and the mean level of X1
 lmmodel <- lm(Y ~ M * X, data = df2)
 emmeans(lmmodel,c("X","M"),contr="revpairwise", weights="proportinal",
-        at=list(M=c(mean(df2$M[X==0]),mean(df2$M[X==1]))))$contrasts[c(1,6)]
+        at=list(M=c(mean(df2$M[df2$X==0]),mean(df2$M[df2$X==1]))))$contrasts[c(1,6)]
 
 #stringing effect together - note the alternative expression in the last line---
 cat("c path",round(c,2),"\n",
@@ -75,7 +75,7 @@ cat("c path",round(c,2),"\n",
     "c' path for treated group (X=1)",round(cprime1 + h,2),"\n",
     "a x b path (indirect effect for control group X=0)",round(a*b1,2),"\n",
     "a x b path (indirect effect for treated group X=1)",round(a*(b1+h),2),"\n",
-    "c - c' (indirect effect for control group X=0)",round(c-(cprime1 + h*mean(df2$M[X==0])),2),"\n",
-    "c - c' (indirect effect for control group X=1)",round(c-(cprime1 + h*mean(df2$M[X==1])),2))
+    "c - c' (indirect effect for control group X=0)",round(c-(cprime1 + h*mean(df2$M[df2$X==0])),2),"\n",
+    "c - c' (indirect effect for control group X=1)",round(c-(cprime1 + h*mean(df2$M[df2$X==1])),2))
 
 
