@@ -75,7 +75,9 @@ cat("c path",round(c,2),"\n",
     "c' path for treated group (X=1)",round(cprime1 + h,2),"\n",
     "a x b path (indirect effect for control group X=0)",round(a*b1,2),"\n",
     "a x b path (indirect effect for treated group X=1)",round(a*(b1+h),2),"\n",
-    "c - c' (indirect effect for control group X=0)",round(c-(cprime1 + h*mean(df2$M[df2$X==0])),2),"\n",
-    "c - c' (indirect effect for control group X=1)",round(c-(cprime1 + h*mean(df2$M[df2$X==1])),2))
+    "c' (direct effect for control group X=0)",round((cprime1 + h*mean(df2$M[df2$X==0])),2),"\n",
+    "c' (direct effect for control group X=1)",round((cprime1 + h*mean(df2$M[df2$X==1])),2))
+
+
 
 
