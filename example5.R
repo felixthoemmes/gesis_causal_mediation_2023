@@ -8,8 +8,9 @@ library(dagitty)
 library(ggdag)
 library(tidyverse)
 library(mediation)
+library(regmedint)
 
-#generate DAG ------------------------------------------------------------------
+e#generate DAG ------------------------------------------------------------------
 
 
 
